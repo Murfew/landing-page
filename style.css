@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+}
+
+body {
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: Roboto, sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 500;
+}

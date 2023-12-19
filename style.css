@@ -70,9 +70,10 @@ a {
     background-color: #3882F6;
     color: #F9FAF8;
     font-size: 18px;
-    padding: 8px 32px 8px 32px;
+    padding: 8px 32px;
     border-radius: 5px;
     border: 0;
+    font-weight: bold;
 }
 
 .information {
@@ -110,7 +111,7 @@ a {
     width: 1000px;
 }
 
-.text {
+.group .text {
     width: 150px;
     text-align: center;
 }
@@ -141,7 +142,45 @@ a {
     font-style: normal;
 }
 
-.call-to-action .button {
+.call-to-action .sign-up {
     border: 2px solid #F9FAF8;
+    padding: 8px 32px;
+    height: 48px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
 }
 
+.call-to-action {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 128px;
+    border-radius: 10px;
+    margin: 150px;
+    width: 1200px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action .text{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-call {
+    color: #F9FAF8;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.sub {
+    color: #E5E7EB;
+}

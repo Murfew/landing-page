@@ -140,3 +140,8 @@ a {
     padding-top: 16px;
     font-style: normal;
 }
+
+.call-to-action .button {
+    border: 2px solid #F9FAF8;
+}
+
